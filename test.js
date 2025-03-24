@@ -10,9 +10,9 @@ function clearDisplay(){
 
 function calculate(){
     try {
-        display.value = "MISS YOU BEBI";
+        display.value = eval(display.value);
     }
     catch (error){
-        display.value = "ERROR";
+        display.value = "MISS YOU BEBI";
     }
 }
